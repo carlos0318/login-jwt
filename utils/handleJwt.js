@@ -10,6 +10,15 @@ const tokenSign = (user) => {
   )
 }
 
+const verifyToken = async (token) => {
+  try {
+    return jwt.verify(token, process.env.JWT_SECRET)
+  } catch (error) {
+    return null
+  }
+}
+
 module.exports = {
-  tokenSign
+  tokenSign,
+  verifyToken
 }
