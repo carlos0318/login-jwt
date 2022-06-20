@@ -13,3 +13,12 @@ Use the following commands in the terminal:
 - `npm run lint`: check the syntax errors
 - `npm run lint-fix`: fix the syntax errors
 - `npm run test:watch`: run the tests and listen for changes in the test
+
+### Dependencies
+* [Express](https://expressjs.com/): Node.js web framework, used for routing.
+* [ESLint](): Find syntax errors in the code
+* [dotenv](): Use environment variables
+* [bcryptjs](): Encrypt the password
+* [jsonwebtoken](): Use jwt in the project
+* [mongoose](): Use the mongodb database
+* [mongoose-unique-validator](): Validate the fields are unique in the database
